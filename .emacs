@@ -6,7 +6,7 @@
 ;    By: kleiba <kleiba@student.42.fr>              +#+  +:+       +#+         ;
 ;                                                 +#+#+#+#+#+   +#+            ;
 ;    Created: 2016/12/28 17:14:11 by kleiba            #+#    #+#              ;
-;    Updated: 2016/12/28 17:14:20 by kleiba           ###   ########.fr        ;
+;    Updated: 2016/12/29 15:11:06 by kleiba           ###   ########.fr        ;
 ;                                                                              ;
 ;******************************************************************************;
 
@@ -54,5 +54,12 @@
 ;; Show parens immediately
 (setq show-paren-delay 0)
 (show-paren-mode 1)
+
+;; Configure indent for C
+;;(setq-default c-default-style "k&r")
+(c-set-offset 'substatement-open 0)
+(setq-default c-basic-offset 2
+	      tab-width 2
+	      indent-tabs-mode t)
 
 ;*******************************************************************************;
