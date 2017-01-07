@@ -6,7 +6,7 @@
 ;    By: kleiba <kleiba@student.42.fr>              +#+  +:+       +#+         ;
 ;                                                 +#+#+#+#+#+   +#+            ;
 ;    Created: 2016/12/28 17:14:11 by kleiba            #+#    #+#              ;
-;    Updated: 2016/12/29 15:13:41 by kleiba           ###   ########.fr        ;
+;    Updated: 2017/01/07 16:37:49 by kleiba           ###   ########.fr        ;
 ;                                                                              ;
 ;******************************************************************************;
 
@@ -57,8 +57,8 @@
 
 ;; Configure indent for C
 (c-set-offset 'substatement-open 0)
-(setq-default c-basic-offset 2
-	      tab-width 2
+(setq-default c-basic-offset 4
+	      tab-width 4
 	      indent-tabs-mode t)
 
 ;*******************************************************************************;
